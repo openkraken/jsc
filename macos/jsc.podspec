@@ -15,6 +15,7 @@ Pre-built JavaScriptCore bindary.
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
+  s.prepare_command = 'unzip JavaScriptCore.framework.zip'
   s.vendored_frameworks = 'JavaScriptCore.framework'
   s.platform = :osx, '10.11'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
