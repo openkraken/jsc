@@ -1,5 +1,5 @@
 # jsc
 
-Prebuilt JavaScriptCore binary maintained kraken team.
+Pre-built JavaScriptCore binary.
 
 https://github.com/openkraken/jsc/releases
