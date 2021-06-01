@@ -1,3 +1,7 @@
+## 0.2.0
+
+* support null safety.
+
 ## 0.1.4
 
 * fix pod install error during twice build.
